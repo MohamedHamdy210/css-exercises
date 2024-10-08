@@ -1,0 +1,22 @@
+.con{
+     width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;}
+
+button{
+    background-color:#2563eb;
+    width: 7rem;
+    height: 3rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    will-change: transform;
+    transition: transform .5s ease-in-out ;
+}
+button:hover{
+    transform: scale(1.5);
+}
